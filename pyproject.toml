@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thorlabs-up-led"
+version = "0.1.0"
+description = "Cross-platform pyserial driver for the Thorlabs upLED"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Adrian Zwenger" }]
+requires-python = ">=3.10"
+dependencies = ["pyserial>=3.5"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+]
+
+[tool.setuptools]
+py-modules = ["thorlabs_up_led"]

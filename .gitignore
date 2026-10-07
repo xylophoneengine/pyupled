@@ -29,3 +29,6 @@ scratch_numberspace/
 WASTE/*
 .serena/
 .agents/
+# packaging
+build/
+dist/
