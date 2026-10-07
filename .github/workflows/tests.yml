@@ -18,4 +18,4 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: pip install .
-      - run: python -m unittest -v test_thorlabs_up_led
+      - run: python -m unittest -v test_pyupled

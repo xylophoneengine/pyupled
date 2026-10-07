@@ -1,4 +1,4 @@
-"""Hardware-free tests: python3 -m unittest -v test_thorlabs_up_led"""
+"""Hardware-free tests: python3 -m unittest -v test_pyupled"""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from types import SimpleNamespace
 from typing import cast
 from unittest import mock
 
-import thorlabs_up_led as m
+import pyupled as m
 
 
 class FakeSerial:

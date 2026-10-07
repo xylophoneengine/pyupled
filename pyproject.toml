@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "thorlabs-up-led"
+name = "pyupled"
 version = "0.1.0"
 description = "Cross-platform pyserial driver for the Thorlabs upLED"
 readme = "README.md"
@@ -19,5 +19,8 @@ classifiers = [
     "Topic :: System :: Hardware :: Hardware Drivers",
 ]
 
+[project.gui-scripts]
+pyupled-gui = "pyupled_gui:main"
+
 [tool.setuptools]
-py-modules = ["thorlabs_up_led"]
+py-modules = ["pyupled", "pyupled_gui"]
